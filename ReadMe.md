@@ -1,4 +1,4 @@
-Ken's Labyrinth
+Ken's Labyrinth (with invisible touchscreen controls)
 =============
 
 Ken's Labyrinth is a first-person shooter DOS game, released in 1993 by Epic MegaGames (now called Epic Games). It was mostly coded by Ken Silverman, who went on to design the Build engine that was used for rendering a first-person viewpoint in Apogee Software's Duke Nukem 3D. It consists of three episodes, the first of which was released as shareware - [Wikipedia](https://en.wikipedia.org/wiki/Ken%27s_Labyrinth).
