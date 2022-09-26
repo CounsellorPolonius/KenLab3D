@@ -7,10 +7,12 @@ Ken's Labyrinth is a first-person shooter DOS game, released in 1993 by Epic Meg
 
 I found the on-screen controls to be too distracting. I modified it so that they are invisible. I intend to use this with a gamepad mapper anyways so having the controls invisible works for me.  
 
-You can download APK-package from the Releases section. 
+You can download APK from the Releases section. 
 
 You can also open this project in Android Studio IDE and build the APK-package by using this program. I modified the gradle version in the project. 
 
-## More information
+## Other Changes
+ - Gradle upgraded to 7.3.0.
+ - NDK outright declared (I know not to, but I wanted to get it to work first)
+ - XCF control image no longer needed. 
 
-Please read [Porting Guide (In Russian)](http://exlmoto.ru/kenlab3d-droid) for more info about porting Ken's Labyrinth to Android OS.
