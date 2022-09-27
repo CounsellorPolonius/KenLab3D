@@ -9,10 +9,15 @@ I found the on-screen controls to be too distracting. I modified it so that they
 
 You can download APK from the Releases section. 
 
-You can also open this project in Android Studio IDE and build the APK-package by using this program. I modified the gradle version in the project. 
+You can also open this project in Android Studio and build the APK there. You will need to follow these steps however.
 
-## Other Changes
- - Gradle upgraded to 7.3.0.
- - NDK outright declared (I know not to, but I wanted to get it to work first)
- - XCF control image no longer needed. 
+## Import to Android Studio
+ 1. Git clone or download the project and import to Android Studio (used version 2021.3.1 / Dolphin).
+ 2. Ensure gradle version is correct (build.gradle = 7.3.0). File > Project Structure > Project had the plugin version at 7.3.0 and general version at 7.4.
+ 2. Download NDK version 21.0.6113669. Versions after this changed the structure so using a more recent version may not work correct. I downloaded it via the SDK Manager but since you'll be manually pointing to it how you download it does not matter. 
+ 3. Add line to local.properties: ndk.dir=(path/to/NDK/21.0.6113669).
+  - For my project the NDK was located in the C:/users/myuser/AppData/Local/Android/NDK folder. 
+ 4. Build the project. It should now work. 
 
+## Main Changes
+ - (XCF, coming soon)
