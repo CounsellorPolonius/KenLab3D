@@ -3,6 +3,8 @@ Ken's Labyrinth (with invisible touchscreen controls)
 
 Ken's Labyrinth is a first-person shooter DOS game, released in 1993 by Epic MegaGames (now called Epic Games). It was mostly coded by Ken Silverman, who went on to design the Build engine that was used for rendering a first-person viewpoint in Apogee Software's Duke Nukem 3D. It consists of three episodes, the first of which was released as shareware - [Wikipedia](https://en.wikipedia.org/wiki/Ken%27s_Labyrinth).
 
+This should work on all Android devices after 4. Latest I have tested it on was 10 and it worked perfectly. 
+
 ## What is this fork? 
 
 I found the on-screen controls to be too distracting. I modified it so that they are invisible. I intend to use this with a gamepad mapper anyways so having the controls invisible works for me.  If you are going to use this I recomend downloading the original APK, taking a screenshot then installing this version and using the mapper with the screenshot as reference. 
