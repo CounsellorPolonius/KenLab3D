@@ -5,9 +5,11 @@ Ken's Labyrinth is a first-person shooter DOS game, released in 1993 by Epic Meg
 
 ## What is this fork? 
 
-I found the on-screen controls to be too distracting. I modified it so that they are invisible. I intend to use this with a gamepad mapper anyways so having the controls invisible works for me.  
+I found the on-screen controls to be too distracting. I modified it so that they are invisible. I intend to use this with a gamepad mapper anyways so having the controls invisible works for me.  If you are going to use this I recomend downloading the original APK, taking a screenshot then installing this version and using the mapper with the screenshot as reference. 
 
-You can download APK from the Releases section. 
+Of course you could always just turn off the on-screen controls and map the buttons to keyboard keys but I couldn't find a good app to do that. Plus, this helped me learn a bit more about C and Java.
+
+You can download the modified APK from the releases section. 
 
 You can also open this project in Android Studio and build the APK there. You will need to follow these steps however.
 
@@ -19,5 +21,6 @@ You can also open this project in Android Studio and build the APK there. You wi
   - For my project the NDK was located in the C:/users/myuser/AppData/Local/Android/NDK folder. 
  4. Build the project. It should now work. 
 
-## Main Changes
- - (XCF, coming soon)
+## Major Changes
+ - Made the res\drawable-nodpi\overlay_controls_game invisible. Controls are still there but you'll have to remember where they were. 
+ - Modified lines 2485 and 2626 (writeLE32 and readLE32) of oldlab3d.c because Android Studio ran into errors (in call to 'read', 'count' bytes overflows the given object). Values were changed from 4 to 2. AFAIK this has no effect on the game. 
