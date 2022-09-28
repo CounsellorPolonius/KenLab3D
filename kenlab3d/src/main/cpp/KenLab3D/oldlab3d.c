@@ -2482,7 +2482,7 @@ K_INT16 oldloadgame(K_INT16 gamenum)
     readLE16(fil,(K_INT16*)(&clockspeed),2);
     readLE32(fil,&count,4);
     readLE32(fil,&countstop,4);
-    readLE32(fil,&nownote,4);
+    readLE32(fil,&nownote,2);
     readLE32(fil,&chanage,18<<2);
     read(fil,&chanfreq,18);
     close(fil);
@@ -2623,7 +2623,7 @@ K_INT16 oldsavegame(K_INT16 gamenum)
     writeLE16(fil,(K_INT16 *)(&clockspeed),2);
     writeLE32(fil,&count,4);
     writeLE32(fil,&countstop,4);
-    writeLE32(fil,&nownote,4);
+    writeLE32(fil,&nownote,2);
     writeLE32(fil,&chanage,18<<2);
     write(fil,&chanfreq,18);
     close(fil);
