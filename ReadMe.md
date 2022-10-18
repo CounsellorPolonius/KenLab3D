@@ -26,3 +26,7 @@ You can also open this project in Android Studio and build the APK there. You wi
 ## Major Changes
  - Made the res/drawable-nodpi/overlay_controls_game invisible. Controls are still there but you'll have to remember where they were. 
  - Modified lines 2485 and 2626 (writeLE32 and readLE32) of oldlab3d.c because Android Studio ran into errors (in call to 'read', 'count' bytes overflows the given object). Values were changed from 4 to 2. AFAIK this has no effect on the game. 
+
+## Future Plans 
+ - Add strafing (L and R) buttons to the touch controls. This will enable me to use both joysticks for touch mapping (one for moving U/D/L/R and one for looking L/R). 
+ - Release a new version with updated touch controls as well as one version with the added controls but visible. 
