@@ -20,7 +20,7 @@ You can also open this project in Android Studio and build the APK there. You wi
  2. Ensure gradle version is correct (build.gradle = 7.3.0). File > Project Structure > Project had the plugin version at 7.3.0 and general version at 7.4.
  2. Download NDK version 21.0.6113669. Versions after this changed the structure so using a more recent version may not work correct. I downloaded it via the SDK Manager but since you'll be manually pointing to it how you download it does not matter. 
  3. Add line to local.properties: ndk.dir=(path/to/NDK/21.0.6113669).
-  - For my project the NDK was located in the C:/users/myuser/AppData/Local/Android/NDK folder. 
+    - For my project the NDK was located in the C:/users/myuser/AppData/Local/Android/NDK folder. 
  4. Build the project. It should now work. 
 
 ## Major Changes
