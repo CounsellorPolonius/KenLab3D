@@ -1,7 +1,7 @@
 Ken's Labyrinth (with invisible touchscreen controls)
 =============
 
-Ken's Labyrinth is a first-person shooter DOS game, released in 1993 by Epic MegaGames (now called Epic Games). It was mostly coded by Ken Silverman, who went on to design the Build engine that was used for rendering a first-person viewpoint in Apogee Software's Duke Nukem 3D. It consists of three episodes, the first of which was released as shareware - [Wikipedia](https://en.wikipedia.org/wiki/Ken%27s_Labyrinth).
+Ken's Labyrinth is a first-person shooter released for the MS-DOS. It released in 1993 by Epic MegaGames (now called Epic Games, yes, the Fortnite guys). It was mostly coded by Ken Silverman, who went on to design the Build engine that was used for rendering a first-person viewpoint in Apogee Software's Duke Nukem 3D. It consists of three episodes, the first of which was released as shareware - [Wikipedia](https://en.wikipedia.org/wiki/Ken%27s_Labyrinth).
 
 This should work on all Android devices after 4. Latest I have tested it on was 10 and it worked perfectly. 
 
